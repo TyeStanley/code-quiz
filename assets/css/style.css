@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(91, 90, 90); 
+    font-family: 'Poppins', sans-serif;
+    color: #06c2c2;
+}
+
+h1, 
+h2 {
+    color: #06c2c2;
+}
+
+a {
+    color: #06c2c2;
+}
+
+a:hover {
+    color: #99B8BF;
+}
+
+.btn:focus, .btn:active, .btn:visited {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #343a40;
+}
+
+#finalScore {
+    font-weight: bold;
+}
+
+#answerCheck {
+    font-style: italic;
+    color: #06c2c2;
+}
